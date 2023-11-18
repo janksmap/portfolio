@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Import "Ysabeau SC" font */
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(213, 239, 255)
+}
