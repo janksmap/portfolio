@@ -14,6 +14,8 @@
     border-radius: 20px;
 }
 
+/* Picture of Me Widget */
+
 #picture-of-me {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
@@ -26,10 +28,40 @@
     object-fit: cover;
 }
 
+/* Latest Project Widget */
+
 #latest-project {
     grid-column: 2 / 4;
     grid-row: 1 / 2;
+    background: linear-gradient(270deg, rgba(38,191,238,1) 0%, rgba(0,153,255,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    overflow: hidden;
 }
+
+#latest-project img {
+    width: 200px;
+}
+
+#latest-project div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+#latest-project h1 {
+    font-size: 4vw;
+}
+
+#latest-project h4 {
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+/* Other Widgets */
 
 #other-projects {
     grid-column: 1 / 3;
