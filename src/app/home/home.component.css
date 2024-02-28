@@ -12,6 +12,12 @@
     background-color: rgb(213, 239, 255);
     box-shadow: 3px 3px 10px rgb(129, 129, 129);
     border-radius: 20px;
+    transition: ease-in-out 0.3s;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgb(129, 129, 129);
 }
 
 /* Picture of Me Widget */
