@@ -3,12 +3,14 @@
     align-items: center;
     padding: 0.5% 0;
     font-family: 'Ysabeau SC', sans-serif;
+    width: 90vw;
+    margin: auto;
 }
 
 h1 {
     flex-grow: 2;
     text-align: left;
-    padding-left: 10%;
+    padding-left: 5vw;
     font-weight: 1000;
 }
 

@@ -1,0 +1,42 @@
+#home-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2vw; /* Use vw on the column gap and the row gap to keep them equal*/
+    row-gap: 2vw;
+}
+
+.card {
+    background-color: rgb(213, 239, 255);
+    box-shadow: 3px 3px 10px rgb(129, 129, 129);
+    border-radius: 20px;
+}
+
+#picture-of-me {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    overflow: hidden;
+}
+
+#picture-of-me img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#latest-project {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+
+#other-projects {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+#view-resume {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
