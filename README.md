@@ -1,4 +1,4 @@
-# MyWebsite
+# Portfolio Site
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
@@ -12,7 +12,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build` to build the project. The build artifacts will be stored in the `docs/` directory.
+
+If the built website serves a blank page without any components, check `index.html` in the main `src` directory and make sure to set the `base href` to `"./"` so that it looks like this: `<base href="./">`
 
 ## Running unit tests
 
